@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+    background-color: #dda5dd;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    padding: 10px;
+    margin-left: 20px;
+}
+.name .myName .icon{
+    font-size: 24px;
+    font-weight: 900;
+    color: #000000;
+    margin-right: 10px;
+}
+.name .myName{
+    letter-spacing: 3px;
+}
+.list{
+    width: auto;
+    display: flex;
+    list-style-type: none;
+}
+.list li {
+    padding: 0 12px;
+}
+.list li a{
+    padding: 0 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    
+    /* -webkit-text-stroke: .9px #ffffff; */
+}
+.list li a:hover{
+    Color:rgb(255, 255, 255);
+    text-decoration: underline  solid ;
+    
+}
+.theme{
+    
+    font-size: 24px;display: flex;
+    align-items: center;
+}
+.section{
+    color: white;
+    width: 100%;
+    height: 600px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    display: flex;
+}
+.div1{
+    
+    margin: 120px 0px 20px 160px;
+    padding: 20px;
+    /* border: 1px solid white; */
+    
+}
+.div1 h1{
+    font-size: 39px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px groove rgb(149, 121, 226);
+}
+.div1 p{
+    text-align: justify;
+    text-indent: 40px;
+    
+}
+.div1 .download{
+    background-color: rgb(226, 14, 49);
+    border: none;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 12px;
+    
+}
+.div1 .download a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn2{
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    margin-left: 20px;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 1px solid rgb(231, 7, 7);
+}
+.div2{
+    margin-right: 60px;
+    text-align: center;
+    padding: 150px;
+    /* border: 1px solid rgb(223, 208, 208); */
+}
+.div2 img{
+    width: 300px;
+    background-image: linear-gradient(45deg, blue 0%,rgb(231, 89, 112) 100%);
+    border-radius: 300px;
+
+
+}
+.projectSection{
+    width: 100%;
+    height: auto;
+    margin-bottom: 23px;
+    background-color: rgb(255, 255, 255);
+}
+.projectSection h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 33px;
+}
+.hr{
+    width: 50%;
+    margin: 0 auto;
+}
+.hr2{
+    
+    width: 40%;
+    margin: 10px auto;
+}
+.projectSection .projectCard{
+    width: 300px;
+    height: 350px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 10px 33px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.37),-2px -2px 7px rgba(0, 0, 0, 0.116);
+    
+}
+.projectSection .projectCard img{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.projectSection .projectCard button{
+    padding: 7px 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 6px;
+    font-weight: bold;
+
+}
+.contactSection{
+   
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+   
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 23px;
+    color: white;
+    text-shadow: 1px 2px #000000;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+.container div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container div input,select,textarea{
+    width: 403px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+textarea{
+    max-height: 100px;
+    max-width: 403px;
+    
+}
+.container div input:focus{
+    outline: none;
+    
+}
+input[type=submit]{
+    margin-top: 20px;
+    background-color: rgb(171, 7, 177);
+    color: white;
+    font-weight: bold;
+}
+.contactSection img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 90vh;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.171);
+    text-align: center;
+    
+}
+footer h3{
+    text-transform: capitalize;
+    padding: 23px;
+}
+.bx{
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.bx:hover{
+    /* font-size: 34px; */
+    color: rgb(124, 6, 124);
+
+}

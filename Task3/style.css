@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container
+{
+    background-color: #f0ebeb;
+    /* border: 1px solid red; */
+    margin: 100px auto;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 24px rgba(128, 128, 128, 0.521);
+}
+h1{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(124, 116, 116);
+    margin-top: 20px;
+    background-color: #f0ebeb;
+    
+    
+}
+select{
+    /* width: 160px; */
+    
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(124, 116, 116);
+    background-color: #f0ebeb;
+}
+.inputs{
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 0px 10px;
+    color: gray;
+
+}
+select:focus,input:focus{
+    outline:none;
+}
+h4{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#btn{
+    width: 100%;
+    background-color: rgb(1, 194, 59);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.result{
+   padding: 10px;
+   color: gray;
+}
+#error{
+    padding: 10px;
+    font-size:13px;
+    color: red;
+}
+
+footer{
+    text-align: center;
+}
